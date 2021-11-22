@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>prototype</title>
+    <link
+      rel="stylesheet"
+      href="@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Poppins:wght@100;400;600&display=swap');"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <!-- <link rel="stylesheet" href="cards.css" /> -->
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="flex items-center justify-between">
+          <div class="left flex items-center">
+            <div class="branding">
+              <img src="./images/Group 1.png" alt="logo" class="logo" />
+            </div>
+            <div class="link" style="margin-left: 5rem">
+              <a class="nav-link nav-link-fade-up" href="#">Home</a>
+              <a class="nav-link nav-link-fade-up" href="#">About</a>
+              <a class="nav-link nav-link-fade-up" href="#">Services</a>
+              <a class="nav-link nav-link-fade-up" href="#">Blog</a>
+            </div>
+          </div>
+          <div class="right">
+            <div>
+              <button class="btn btn-primary">Sign up</button>
+            </div>
+          </div>
+        </nav>
+        <hr
+          style="
+            height: 1px;
+            border-width: 0;
+            color: gray;
+            background-color: gray;
+          "
+        />
+        <div class="hero flex items-center">
+          <div class="left flex justify-center">
+            <img
+              src="./images/background.png"
+              alt="AI image"
+              style="width: 710px; height: 570px; margin-top: 2.8rem"
+            />
+          </div>
+
+          <div class="right">
+            <!-- <h6>Artificial Intelligence</h6> -->
+            <h1><span>A.I.</span></h1>
+            <h2>NEWS</h2>
+            <!-- <p>Let our AI handle it</p> -->
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe,
+              tenetur. Dolor officia eius eveniet veniam cum, soluta
+              reprehenderit fuga est libero obcaecati itaque distinctio.
+            </p>
+            <div>
+              <button class="btn btn-secondary"><b>Start</b></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="services">
+      <div class="container">
+        <h1 class="section-heading"><span> Our </span> services</h1>
+        <p>let our AI handle it</p>
+
+        <div class="card-wrapper">
+          <div class="card" style="background-image: url(./images/card\ 1.png)">
+            <div class="card-content">
+              <h2 class="card-title title1" style="margin-bottom: 5rem;">Latest news</h2>
+              <p class="card-body" >
+                <!-- <br>
+                <br>
+                <br>
+                <br>
+                <br> -->
+                give me the latest news
+                <!-- <br> -->
+              </p>
+              <a href="#" class="button button1" style="transition: all .3s ease;">Try saying</a>
+            </div>
+          </div>
+          <div class="card" style="background-image: url(./images/card\ 2.png)">
+            <div class="card-content">
+              <h2 class="card-title title2" style="margin-bottom: 2.5rem;">Categories</h2>
+              <p class="card-body">
+                <!-- <br>
+                <br>
+                <br> -->
+                Business, Entertainment, General, Health, Science, Sports, Technology
+                <!-- <br> -->
+              </p>
+              <a href="#" class="button button2" style="transition: all .3s ease;">Try saying</a>
+            </div>
+          </div>
+          <div class="card" style="background-image: url(./images/card\ 4.png)">
+            <div class="card-content">
+              <h2 class="card-title title3" style="margin-bottom: 2.5rem;">Terms</h2>
+              <p class="card-body">
+                <!-- <br>
+                <br>
+                <br> -->
+                Bitcoin, PlayStation 5, Smartphones, Donald Trump...
+                <!-- <br> -->
+                
+              </p>
+              <a href="#" class="button button3 " style="transition: all .3s ease;">Try saying</a>
+            </div>
+          </div>
+          <div class="card" style="background-image: url(./images/card\ 3.png)">
+            <div class="card-content">
+              <h2 class="card-title title4" style="margin-bottom: 2.5rem;">Sources</h2>
+              <p class="card-body">
+                <!-- <br>
+                <br>
+                <br> -->
+                CNN, Wired, BBC News, Time, IGN, Buzzfeed, ABC News...
+                <!-- <br> -->
+                
+              </p>
+              <a href="#" class="button button4" style="transition: all .3s ease;">Try saying</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="art">
+        <div class="content">
+          <section >
+            <header class="head">Company</header>
+            <a href="/" style="text-decoration: none;">About</a>
+            <a href="/" style="text-decoration: none;">Contact US</a>
+            <a href="/" style="text-decoration: none;">Blog</a>
+          </section>
+          <section >
+            <header  class="head">Development</header>
+            <a href="/" style="text-decoration: none;">Website</a>
+            <a href="/" style="text-decoration: none;">Mobile Application</a>
+            <a href="/" style="text-decoration: none;">UI & UX Design</a>
+          </section>
+          <section >
+            <header  class="head" style="color: #ff5f7e;">weekly News</header>
+            <form action="#">
+                <input type="email" placeholder="Your Email here..." id=""/>
+                <button class="btn btn-third">subscribe now</button>
+              </form>
+            <div class="social">
+              <i class="fa fa-youtube"></i>
+              <i class="fa fa-facebook"></i>
+              <i class="fa fa-twitter"></i>
+              <i class="fa fa-instagram"></i>
+              <i class="fa fa-telegram"></i>
+            </div>
+          </section>
+            </div>
+                <div class="notice">Copyright Protected &copy</div>
+            </div>
+        </div>
+      </div>
+    </footer> 
+    
+  </body>
+</html>
