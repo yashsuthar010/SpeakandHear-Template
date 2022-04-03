@@ -1,2 +1,2 @@
-# AI-NEWS-WEB-PAGE-TEMPLATE
+# NEWS-WEB-PAGE-TEMPLATE
 home page using html and css
